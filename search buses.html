@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Buses - Bus Booking System</title>
+<link rel="stylesheet" href="externalcss .css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="bbms homepage.html">Home</a>
+  <a href="search buses.html">Search Buses</a>
+  <a href="bookingtickets.html">Book Tickets</a>
+  <a href="booking.html">Manage Bookings</a>
+  <a href="contactus.html">Contact Us</a>
+  <a href="login.html">Login</a>
+  <a href="signup.html">Register</a>
+</div>
+
+<div class="content">
+  <h1>Search Buses</h1>
+  <p>Find the perfect bus for your journey. Use the search tool below to explore available routes and fares.</p>
+
+  <form action="search_results.php" method="GET">
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from" required>
+
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <button type="submit" class="cta-button">Search Buses</button>
+  </form>
+</div>
+
+</body>
+</html>

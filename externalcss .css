@@ -1,0 +1,83 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ebdc11;
+  color: black;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(6, 106, 255);
+  box-shadow: 0 0 10px rgba(230, 226, 226, 0.1);
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f3ff0e;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #11bfff;
+}

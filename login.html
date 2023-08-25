@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="externalcss .css">
+<title>Login Page</title>
+</head>
+<body>
+  <div style="text-align: center; margin-top: 100px;">
+    <h2>Login</h2>
+    <form action="process_login.php" method="POST">
+      <div>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" required><br>
+      </div>
+      <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required><br>
+      </div>
+      <div style="margin-top: 10px;">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+    <div style="margin-top: 10px;">
+      <a href="recovery.html">Forgot Password?</a>
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="help.html">Need Help?</a>
+    </div>
+  </div>
+</body>
+</html>

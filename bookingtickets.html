@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Tickets - Bus Booking System</title>
+<link rel="stylesheet" href="externalcss .css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="bbms homepage.html">Home</a>
+  <a href="search buses.html">Search Buses</a>
+  <a href="bookingtickets.html">Book Tickets</a>
+  <a href="booking.html">Manage Bookings</a>
+  <a href="contactus.html">Contact Us</a>
+  
+  <a href="login.html">Login</a>
+  <a href="signup.html">Register</a>
+</div>
+
+<div class="content">
+  <h1>Book Tickets</h1>
+  <p>Securely reserve your seats for your upcoming journey. Follow the simple steps below to book your bus tickets.</p>
+
+  <form action="confirm_booking.php" method="POST">
+    <label for="from">From:</label><br>
+    <input type="text" id="from" name="from" required><br>
+
+    <label for="to">To:</label><br>
+    <input type="text" id="to" name="to" required><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br>
+
+    <label for="seats">Number of Seats:</label><br>
+    <input type="number" id="seats" name="seats" min="1" required><br>
+
+    <button type="submit" class="cta-button">Continue to Payment</button>
+  </form>
+</div>
+
+</body>
+</html>
